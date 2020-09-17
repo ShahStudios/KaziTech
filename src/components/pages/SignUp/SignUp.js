@@ -1,7 +1,6 @@
 import React from 'react';
 import HeroSection from '../../hero/HeroSection';
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data';
-import Pricing from '../../pricing/Pricing';
+import { homeObjOne, homeObjThree } from './Data';
 
 function SignUp() {
   return (

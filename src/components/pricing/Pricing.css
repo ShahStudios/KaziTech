@@ -26,8 +26,17 @@
   color: #1c2237;
 }
 
-.pricing__container-card:nth-child(2) {
+.pricing__container-card:nth-child(1) {
   margin: 0 24px;
+}
+.pricing__container-card:nth-child(2) {
+  margin: 0px 24px 0px 0px;
+}
+.pricing__container-card:nth-child(3) {
+  margin: 0px 16px 0px 0px;
+}
+.pricing__container-card:nth-child(4) {
+  margin: 0px 24px 0px 0px;
 }
 
 .pricing__container {
