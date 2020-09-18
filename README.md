@@ -1,5 +1,5 @@
 # KaziTech Responsive Web App
-Web application built for tech companies using React.
+Web application built for tech companies.
 # What I Learned
 * How to use reusable components that can be customized
 * How to develop a simple web application that is responsive using react 
