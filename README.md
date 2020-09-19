@@ -6,4 +6,4 @@ Web application built for tech companies.
 * Install react-router and use it correctly for the navbar to help users navigate through the site
 
 # View Project
-https://kazitech-demo.netlify.app/
+https://kazitech.netlify.app/
