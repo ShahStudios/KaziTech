@@ -32,7 +32,7 @@ function Navbar() {
       <IconContext.Provider value={{ color: '#fff' }}>
         <nav className='navbar'>
           <div className='navbar-container container'>
-            <Link to='/home' className='navbar-logo' onClick={closeMobileMenu}>
+            <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
               <MdWhatshot className='navbar-icon' />
               KaziTech
             </Link>
@@ -56,11 +56,11 @@ function Navbar() {
               </li>
               <li className='nav-btn'>
                 {button ? (
-                  <Link to='/' className='btn-link'>
+                  <Link to='/contact-us' className='btn-link'>
                     <Button buttonStyle='btn--outline'>Contact Us</Button>
                   </Link>
                 ) : (
-                  <Link to='/contact' className='btn-link'>
+                  <Link to='/contact-us' className='btn-link'>
                     <Button
                       buttonStyle='btn--outline'
                       buttonSize='btn--mobile'

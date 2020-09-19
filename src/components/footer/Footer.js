@@ -34,39 +34,39 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Services</h2>
-            <Link to='/home'>Web Development</Link>
-            <Link to='/home'>Mobile Development</Link>
-            <Link to='/home'>Cloud & Devops</Link>
-            <Link to='/home'>UX / UI Design</Link>
+            <Link to='/'>Web Development</Link>
+            <Link to='/'>Mobile Development</Link>
+            <Link to='/'>Cloud & Devops</Link>
+            <Link to='/'>UX / UI Design</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Company</h2>
-            <Link to='/home'>About Us</Link>
-            <Link to='/home'>Team</Link>
-            <Link to='/home'>Offices</Link>
-            <Link to='/home'>Careers</Link>
+            <Link to='/'>About Us</Link>
+            <Link to='/'>Team</Link>
+            <Link to='/'>Offices</Link>
+            <Link to='/'>Careers</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
         <div className='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/home'>Instagram</Link>
-            <Link to='/home'>Facebook</Link>
-            <Link to='/home'>Youtube</Link>
-            <Link to='/home'>Twitter</Link>
+            <Link to='/'>Instagram</Link>
+            <Link to='/'>Facebook</Link>
+            <Link to='/'>Youtube</Link>
+            <Link to='/'>Twitter</Link>
           </div> 
           <div className='footer-link-items'>
             <h2>Resources</h2>
-            <Link to='/home'>Blog</Link>
-            <Link to='/home'>Downloads</Link>
-            <Link to='/home'>Videos</Link>
+            <Link to='/'>Blog</Link>
+            <Link to='/'>Downloads</Link>
+            <Link to='/'>Videos</Link>
           </div>
         </div>
       </div>
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
-            <Link to='/home' className='social-logo'>
+            <Link to='/' className='social-logo'>
               <MdWhatshot className='navbar-icon' />
               KaziTech
             </Link>
@@ -75,7 +75,7 @@ function Footer() {
           <div className='social-icons'>
             <Link
               className='social-icon-link'
-              to='/home'
+              to='/'
               target='_blank'
               aria-label='Facebook'
             >
@@ -83,7 +83,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link'
-              to='/home'
+              to='/'
               target='_blank'
               aria-label='Instagram'
             >
@@ -92,7 +92,7 @@ function Footer() {
             <Link
               className='social-icon-link'
               to={
-                '/home'
+                '/'
               }
               target='_blank'
               aria-label='Youtube'
@@ -101,7 +101,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link'
-              to='/home'
+              to='/'
               target='_blank'
               aria-label='Twitter'
             >
@@ -109,7 +109,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link'
-              to='/home'
+              to='/'
               target='_blank'
               aria-label='LinkedIn'
             >
